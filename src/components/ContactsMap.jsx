@@ -76,8 +76,8 @@ export default function ContactsMap(){
                 <animated.div className="col-lg-4 ps-4 ps-lg-1 mb-lg-4 text3" ref={contactRef} style={contactFlip}>
                     <h3 className="mb-4 pb-3 pb-lg-0 text1 fw-bold font1">CONTATTI</h3>
 
-                    <div className="d-flex">
-                        <img src={landline} className="contactsIcons p-1 me-3" alt=""/>
+                    <div className="d-flex flex-column flex-lg-row">
+                        <span className="mb-2 mb-lg-0"><img src={landline} className="contactsIcons p-1 me-3" alt=""/></span>
                         <div className="d-flex flex-column mb-2">
                             <p className="h4 text1 font2">Telefono</p>
                             <p className="font2 fs-4">0883 65 59 49
@@ -85,24 +85,24 @@ export default function ContactsMap(){
                         </div>
                     </div>
 
-                    <div className="d-flex">
-                        <img src={mobile} className="contactsIcons p-1 me-3" alt=""/>
+                    <div className="d-flex flex-column flex-lg-row">
+                        <span className="mb-2 mb-lg-0"><img src={mobile} className="contactsIcons p-1 me-3" alt=""/></span>
                         <div className="d-flex flex-column mb-2">
                             <p className="h4 text1 font2">Cellulare</p>
                             <p className="font2 fs-4">335 772 86 11</p>
                         </div>
                     </div>
 
-                    <div className="d-flex">
-                        <img src={mail} className="contactsIcons p-2 me-3" alt=""/>
+                    <div className="d-flex flex-column flex-lg-row">
+                        <span className="mb-2 mb-lg-0"><img src={mail} className="contactsIcons p-1 me-3" alt=""/></span>
                         <div className="d-flex flex-column mb-2">
-                            <p className="h4 text1 font2">Mail</p>
+                            <p className="h4 text1 font2">E-mail</p>
                             <p className="font2 fs-4">info@copacabanahoteldesign.com</p>
                         </div>
                     </div>
 
-                    <div className="d-flex">
-                        <img src={location} className="contactsIcons p-1 me-3" alt=""/>
+                    <div className="d-flex flex-column flex-lg-row">
+                        <span className="mb-2 mb-lg-0"><img src={location} className="contactsIcons p-1 me-3" alt=""/></span>
                         <div className="d-flex flex-column mb-2">
                             <p className="h4 text1 font2">Copacabana Colors</p>
                             <p className="font2 fs-4">Via Vittorio Veneto 139/E
