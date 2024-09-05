@@ -236,7 +236,7 @@ export default function Colors() {
               <div className="modal-footer bg0 border-0">
                 <button type="button" className="btn closebtn" data-bs-dismiss="modal">Close</button>
                 <button type="button" className="btn modalbtn">
-                  <a target='blank' href="https://www.booking.com/hotel/it/copacabana-colors-margherita-di-savoia.it.html">Prenota</a>
+                  <a target='blank' href="https://copacabanahoteldesign.beddy.io/#/(beddy:home)?lang=it">Prenota</a>
                 </button>
               </div>
             </div>

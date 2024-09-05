@@ -6,6 +6,8 @@ import image1 from "../media/ChisiamoPageImage1.jpg";
 import image2 from "../media/riccioBagno.jpeg";
 import image3 from "../media/luminaireBagno.jpg";
 import image4 from "../media/ChisiamoPageImage4.jpeg";
+import hero1 from '../media/hero1.jpg';
+
 
 export default function GalleryPage() {
 
@@ -71,7 +73,7 @@ export default function GalleryPage() {
                         />
 
                         <animated.img
-                            src={image3}
+                            src={image4}
                             className="w-100 rounded-0 mb-4"
                             alt="Wintry Mountain Landscape"
                             style={zoom3}
@@ -81,7 +83,7 @@ export default function GalleryPage() {
 
                     <div className="col-lg-4 mb-4 mb-lg-0">
                         <animated.img
-                            src={image4}
+                            src={image3}
                             className="w-100 rounded-0 mb-4"
                             alt="Mountains in the Clouds"
                             style={fadeUp2}
@@ -89,7 +91,7 @@ export default function GalleryPage() {
                         />
 
                         <animated.img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                            src={hero1}
                             className="w-100 rounded-0 mb-4"
                             alt="Boat on Calm Water"
                             style={fadeUp5}

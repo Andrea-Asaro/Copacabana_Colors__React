@@ -97,7 +97,7 @@ export default function ContactsMap(){
                         <img src={mail} className="contactsIcons p-2 me-3" alt=""/>
                         <div className="d-flex flex-column mb-2">
                             <p className="h4 text1 font2">Mail</p>
-                            <p className="font2 fs-4">mail@mail.com</p>
+                            <p className="font2 fs-4">info@copacabanahoteldesign.com</p>
                         </div>
                     </div>
 
